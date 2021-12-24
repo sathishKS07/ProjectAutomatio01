@@ -16,6 +16,7 @@ public class TestClass2 extends BaseClass{
 		sendKeys(l.getTextuser(),getExcelValue("FaceBookLogin", "Login", 1, 0));
 		sendKeys(l.getTextpass(),getExcelValue("FaceBookLogin", "Login", 1, 2));
 		btnclick(l.getBtnlogin());
+		System.out.println();
 	}
 
 }
